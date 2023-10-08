@@ -15,7 +15,7 @@ const (
 	// EnvConfigFilePathKey (Set configuration file path export ZINX_CONFIG_FILE_PATH = xxxxxxzinx.json)
 	// (设置配置文件路径 export ZINX_CONFIG_FILE_PATH = xxx/xxx/zinx.json)
 	EnvConfigFilePathKey     = "ZINX_CONFIG_FILE_PATH"
-	EnvDefaultConfigFilePath = "/conf/zinx.json"
+	EnvDefaultConfigFilePath = "/bin/conf/zinx.json"
 )
 
 var env = new(zEnv)
